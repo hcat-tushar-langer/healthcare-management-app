@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Corn",
+        "image": "https://cdn.britannica.com/33/75933-050-826C8817/Rows-corn-field-Nebraska.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/corn-and-other-feedgrains/",
+        "description": "It is the most widely produced feed grain in the United States, the majority of which goes towards feeding livestock. Over 90 million acres of corn are grown for feed, industrial products, and food and beverage products like cereal, alcohol, and sweeteners.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Cotton",
+        "image": "https://cdn.britannica.com/95/129395-050-9BAE0189/Close-up-cotton-plant.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/cotton-wool/",
+        "description": "The U.S. is the world’s third largest producer of cotton, one of the most important textile fabrics. The U.S. is the world’s leading exporter of cotton, and the industry contributes $21 billion a year to the economy and generates over 125,000 jobs.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Fruits",
+        "image": "https://cdn.britannica.com/s:500x350/74/6674-004-2B4B7405/Blackberry.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/fruit-tree-nuts/",
+        "description": "Many different fruits are grown in the U.S., including apples, berries, citrus, and melons. Together with the tree nut industry, the fruit industry contributes over $25 billion in farm cash receipts.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Tree Nuts",
+        "image": "https://cdn.britannica.com/75/174375-050-BC6968AE/Hazelnuts-fruit-compound-ovary-seed.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/fruit-tree-nuts/",
+        "description": "Tree nuts like almonds, pecans, walnuts, hazelnuts, and pistachios are grown many different places in the U.S. Along with the fruit industry, the tree nut industry makes up 13 percent of the total receipts for all agricultural commodities and 7 percent for all crops. However, both the fruit and tree nuts industries face competition from foreign imports.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Rice",
+        "image": "https://cdn.britannica.com/89/140889-050-EC3F00BF/Ripening-heads-rice-Oryza-sativa.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/rice/",
+        "description": "Rice is grown exclusively in the southern U.S. and California with three different types of rice grown, short-, medium-, and long-grain. The U.S. exports approximately half of its rice sales volume to global markets.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Soybean & Oil Crops",
+        "image": "https://cdn.britannica.com/s:500x350/17/9317-050-DA104CAD/Soybeans.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/soybeans-oil-crops/",
+        "description": "The U.S. is the leading soybean producer and exporter in the world. Soybeans account for about 90% of U.S. oilseed production, but we also produce other oilseed, such as peanuts, sunflowers, canola, and flax.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Sugar & Sweeteners",
+        "image": "https://cdn.britannica.com/14/136114-050-04BB907A/Sugarcane.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/sugar-sweeteners/",
+        "description": "The U.S. is both one of the world’s largest producers of sugar and other sweeteners and one of the greatest consumers. Sugars can come from sugarcane, sugar beets and high fructose corn syrup.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Vegetables",
+        "image": "https://cdn.britannica.com/s:800x450,c:crop/63/186963-138-AEE87658/vegetables.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/vegetables-pulses/",
+        "description": "The vegetable industry is comprised of a variety of sectors. It can be split into vegetables grown for processing and those grown for fresh market sales. Upper Midwestern states like Wisconsin, Minnesota, and Michigan and Pacific states like California, Washington, and Oregon grow the most acreage of vegetables for processing, while Florida, California, Arizona, Georgia and New York have the most acreage growing vegetables for the fresh market.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Pulses",
+        "image": "https://cdn.britannica.com/93/149593-050-49B8776F/Spices-pulses-sale-market-Indian.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/vegetables-pulses/",
+        "description": "Pulses include beans, peas, legumes, and peanuts. Along with the vegetable industry, pulses account for approximately 14 percent of U.S. cash crop receipts.",
+        "users": [
+            1
+        ]
+    },
+    {
+        "name": "Wheat",
+        "image": "https://cdn.britannica.com/90/94190-050-C0BA6A58/Cereal-crops-wheat-reproduction.jpg",
+        "website": "https://www.ers.usda.gov/topics/crops/wheat/",
+        "description": "Wheat is the third largest field crop in the U.S., both in acreage and gross farm receipts. About half of the U.S.’s wheat production is exported.",
+        "users": [
+            1
+        ]
+    }
+]
