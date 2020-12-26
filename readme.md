@@ -1,4 +1,4 @@
-# BharatAgri Assignment
+# Crop Management Application
 
 ## **Summary**
 
