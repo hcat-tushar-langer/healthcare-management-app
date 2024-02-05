@@ -81,6 +81,3 @@ This web application is completely responsive.
 ### **MySQL**
 
 For MySQL immplentation, use mysql branch. All the steps stays the same as above. Only one thing to keep in mind is the route for it which will be localhost:8183 and Login details | username: [root](mailto:admin@healthcare.com) | password: password
-
-## Application Sceenshots
-Check screen shots folder
