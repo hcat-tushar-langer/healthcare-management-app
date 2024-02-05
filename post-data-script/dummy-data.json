@@ -45,7 +45,7 @@
         ]
     },
     {
-        "name": "Soybean & Oil Crops",
+        "name": "Soybean & Oil Healthcare",
         "image": "https://cdn.britannica.com/s:500x350/17/9317-050-DA104CAD/Soybeans.jpg",
         "website": "https://www.ers.usda.gov/topics/crops/soybeans-oil-crops/",
         "description": "The U.S. is the leading soybean producer and exporter in the world. Soybeans account for about 90% of U.S. oilseed production, but we also produce other oilseed, such as peanuts, sunflowers, canola, and flax.",
@@ -84,7 +84,7 @@
         "name": "Wheat",
         "image": "https://cdn.britannica.com/90/94190-050-C0BA6A58/Cereal-crops-wheat-reproduction.jpg",
         "website": "https://www.ers.usda.gov/topics/crops/wheat/",
-        "description": "Wheat is the third largest field crop in the U.S., both in acreage and gross farm receipts. About half of the U.S.’s wheat production is exported.",
+        "description": "Wheat is the third largest field healthcare in the U.S., both in acreage and gross farm receipts. About half of the U.S.’s wheat production is exported.",
         "users": [
             1
         ]

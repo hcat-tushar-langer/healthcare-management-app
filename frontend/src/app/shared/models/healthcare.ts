@@ -1,4 +1,4 @@
-export interface Crop {
+export interface Healthcare {
     id: string;
     name: string;
     image: string;

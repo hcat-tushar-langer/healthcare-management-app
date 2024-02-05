@@ -1,10 +1,10 @@
-# Crop Management Application
+# Healthcare Management Application
 
 ## **Summary**
 
-This project has API endpoints for login, register, crop data built in Angular 8 i.e. single page application with material design principals and Django Rest Framework with PostgreSQL &amp; MySQL support.
+This project has API endpoints for login, register, healthcare data built in Angular 8 i.e. single page application with material design principals and Django Rest Framework with PostgreSQL &amp; MySQL support.
 
-This application has validations for login, register as well as search and sort functionality for crop data view along with a separate one to one view for each crop.
+This application has validations for login, register as well as search and sort functionality for healthcare data view along with a separate one to one view for each healthcare.
 
 This web application is completely responsive.
 
@@ -48,10 +48,10 @@ This web application is completely responsive.
 2. Django Rest Framework Backend: localhost:8000
   1. Admin Dashboard: localhost:8000/api/v1/admin
   2. Authentication endpoint: localhost:8000/api/v1/auth-token
-  3. User endpoint: localhost:8000/api/v1/crop/users
-  4. Crop endpoint: localhost:8000/api/v1/crop/profile
+  3. User endpoint: localhost:8000/api/v1/healthcare/users
+  4. Healthcare endpoint: localhost:8000/api/v1/healthcare/profile
 3. Postgres: localhost:5050
-  1. Login details | username: [admin@bharatagri.com](mailto:admin@bharatagri.com) | password: admin
+  1. Login details | username: [admin@healthcare.com](mailto:admin@healthcare.com) | password: admin
   2. Click on add a new server and fill the following details
     1. General Tab || Name: database
     2. Connection Tab || Host: database | username: app | password: app
@@ -62,25 +62,25 @@ This web application is completely responsive.
 2. Django Rest Framework: localhost/api
   1. Admin Dashboard: localhost/api/v1/admin
   2. Authentication endpoint: localhost/api/v1/auth-token
-  3. User endpoint: localhost/api/v1/crop/users
-  4. Crop endpoint: localhost/api/v1/crop/profile
+  3. User endpoint: localhost/api/v1/healthcare/users
+  4. Healthcare endpoint: localhost/api/v1/healthcare/profile
 3. Postgres: localhost/pgadmin
-  1. Login details | username: [admin@bharatagri.com](mailto:admin@bharatagri.com) | password: admin
+  1. Login details | username: [admin@healthcare.com](mailto:admin@healthcare.com) | password: admin
   2. Click on add a new server and fill the following details
     1. General Tab || Name: database
     2. Connection Tab || Host: database | username: app | password: app
 
 ## **Dummy Data Ingestion:**
 
-1. Sign up on the app and identify the user id from the api end point api/v1/crop/users
+1. Sign up on the app and identify the user id from the api end point api/v1/healthcare/users
 2. In the dummy-data.json, ensure the users: [] has the user id in it.
-3. In post-data.py script, ensure that the apr\_url matches the crop/profile endpoint.
+3. In post-data.py script, ensure that the apr\_url matches the healthcare/profile endpoint.
 4. Run post-data.py script that is in the post-data-script directory.
 5. Refresh the dashboard/login to the dashboard
 
 ### **MySQL**
 
-For MySQL immplentation, use mysql branch. All the steps stays the same as above. Only one thing to keep in mind is the route for it which will be localhost:8183 and Login details | username: [root](mailto:admin@bharatagri.com) | password: password
+For MySQL immplentation, use mysql branch. All the steps stays the same as above. Only one thing to keep in mind is the route for it which will be localhost:8183 and Login details | username: [root](mailto:admin@healthcare.com) | password: password
 
 ## Application Sceenshots
 Check screen shots folder

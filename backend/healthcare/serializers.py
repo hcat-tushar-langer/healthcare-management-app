@@ -6,7 +6,7 @@ from django.contrib.auth import get_user_model
 
 from rest_framework import serializers
 
-from .models import Crop
+from .models import Healthcare
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -22,8 +22,8 @@ class UserSerializer(serializers.ModelSerializer):
         return data
 
     def create(self, validated_data):
-        if 'crop' in validated_data.keys():
-            validated_data.pop('crop')
+        if 'healthcare' in validated_data.keys():
+            validated_data.pop('healthcare')
         data = {
             key: value for key, value in validated_data.items()
             if key not in ('password1', 'password2')
@@ -40,15 +40,15 @@ class UserSerializer(serializers.ModelSerializer):
         model = get_user_model()
         fields = (
             'id', 'email', 'password1', 'password2',
-            'first_name', 'last_name', 'crop'
+            'first_name', 'last_name', 'healthcare'
         )
         read_only_fields = ('id',)
 
 
-class CropSerializer(serializers.ModelSerializer):
+class HealthcareSerializer(serializers.ModelSerializer):
     class Meta:
         ordering = ['-id']
-        model = Crop
+        model = Healthcare
         fields = ('id', 'name', 'image', 'website', 'description',
                   'created', 'updated', 'users')
         read_only_fields = ('id', 'created', 'updated')

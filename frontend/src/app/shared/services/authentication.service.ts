@@ -32,7 +32,7 @@ export class AuthenticationService {
                     email: userTokenData.email,
                     firstName: userData.user.first_name,
                     lastName: userData.user.last_name,
-                    crop: userData.user.crop,
+                    healthcare: userData.user.healthcare,
                     token: userData.token,
                 };
 

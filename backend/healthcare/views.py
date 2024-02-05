@@ -3,8 +3,8 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.db.models import Q
 from rest_framework import generics, permissions, status, views, viewsets
 from rest_framework.response import Response
-from .models import Crop
-from .serializers import UserSerializer, CropSerializer
+from .models import Healthcare
+from .serializers import UserSerializer, HealthcareSerializer
 from .permissions import ReadOnly
 from rest_framework import filters
 from django.shortcuts import get_object_or_404
@@ -27,10 +27,10 @@ class UserViewSet(viewsets.ModelViewSet):
     permission_classes = (permissions.AllowAny, )
 
 
-class CropViewSet(viewsets.ModelViewSet):
+class HealthcareViewSet(viewsets.ModelViewSet):
     """
-    Provides basic CRUD functions for the Crop model
+    Provides basic CRUD functions for the Healthcare model
     """
-    queryset = Crop.objects.all()
-    serializer_class = CropSerializer
+    queryset = Healthcare.objects.all()
+    serializer_class = HealthcareSerializer
     permission_classes = (permissions.AllowAny, )

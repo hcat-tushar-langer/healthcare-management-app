@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as DefaultUserAdmin
 
-from .models import Crop, User
+from .models import Healthcare, User
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
@@ -26,8 +26,8 @@ class UserAdmin(BaseUserAdmin):
     ordering = ('email',)
 
 
-@admin.register(Crop)
-class CropAdmin(admin.ModelAdmin):
+@admin.register(Healthcare)
+class HealthcareAdmin(admin.ModelAdmin):
     fields = (
         'id', 'name', 'image', 'website', 'description',
         'created', 'updated',

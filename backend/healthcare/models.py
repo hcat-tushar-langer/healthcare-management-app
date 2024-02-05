@@ -12,7 +12,7 @@ from .managers import UserManager
 
 
 # Create your models here.
-class Crop(models.Model):
+class Healthcare(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
@@ -32,8 +32,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     date_joined = models.DateTimeField(default=timezone.now)
-    crop = models.ManyToManyField(
-        'Crop',
+    healthcare = models.ManyToManyField(
+        'Healthcare',
         related_name='users',
         blank=True
     )

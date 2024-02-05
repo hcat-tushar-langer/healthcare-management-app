@@ -11,10 +11,10 @@ export class UserService {
   }
 
   getUserById(id: any) {
-    return this.http.get(`${environment.apiUrl}/crop/users/${id}`);
+    return this.http.get(`${environment.apiUrl}/healthcare/users/${id}`);
   }
 
   register(user: User) {
-    return this.http.post(`${environment.apiUrl}/crop/users`, user);
+    return this.http.post(`${environment.apiUrl}/healthcare/users`, user);
   }
 }

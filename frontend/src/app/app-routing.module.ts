@@ -4,10 +4,10 @@ import { AuthGuard } from './shared/helpers';
 import { HomeComponent } from './modules/dashboard/components/home/home.component';
 import { LoginComponent } from './modules/landing/components/login/login.component';
 import { RegisterComponent } from './modules/landing/components/register/register.component';
-import { CropViewComponent } from './modules/dashboard/components/crop-view/crop-view.component';
+import { HealthcareViewComponent } from './modules/dashboard/components/healthcare-view/healthcare-view.component';
 
 const routes: Routes = [
-  { path: 'crop/:id', component: CropViewComponent, canActivate: [AuthGuard] },
+  { path: 'healthcare/:id', component: HealthcareViewComponent, canActivate: [AuthGuard] },
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },

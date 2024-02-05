@@ -4,8 +4,8 @@ import { Subscription } from 'rxjs';
 import { Router } from '@angular/router';
 
 import { AuthenticationService, UserService } from 'src/app/shared/services';
-import { CropService } from 'src/app/shared/services/crop.service';
-import { Crop } from 'src/app/shared/models/crop';
+import { HealthcareService } from 'src/app/shared/services/healthcare.service';
+import { Healthcare } from 'src/app/shared/models/healthcare';
 import { User } from 'src/app/shared/models';
 
 import { MatPaginator } from '@angular/material/paginator';
@@ -21,10 +21,10 @@ import { MatTableDataSource } from '@angular/material/table';
 export class HomeComponent implements OnInit, OnDestroy {
 
   currentUser: User;
-  currentUserCrops: Crop;
-  clickedCrop: Crop;
+  currentUserHealthcare: Healthcare;
+  clickedHealthcare: Healthcare;
 
-  crops: any;
+  healthcare: any;
   dataSource: any;
   displayedColumns: string[] = ['image', 'name', 'website'];
 
@@ -37,13 +37,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     private router: Router,
     private userService: UserService,
     private authenticationService: AuthenticationService,
-    private cropService: CropService) {
+    private healthcareService: HealthcareService) {
     this.authSubscription = this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
-    this.crops = [];
+    this.healthcare = [];
   }
 
   ngOnInit() {
-    this.getCurrentUserCrops();
+    this.getCurrentUserHealthcare();
   }
 
   ngOnDestroy() {
@@ -59,28 +59,28 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
-  getCropRecord(data) {
-    this.clickedCrop = data;
-    this.router.navigate(['/crop', this.clickedCrop.id]);
+  getHealthcareRecord(data) {
+    this.clickedHealthcare = data;
+    this.router.navigate(['/healthcare', this.clickedHealthcare.id]);
   }
 
-  getCurrentUserCrops() {
+  getCurrentUserHealthcare() {
     this.userService.getUserById(this.currentUser.id).pipe(first())
       .subscribe((userData: User) => {
-        this.getCropData(userData.crop)
+        this.getHealthcareData(userData.healthcare)
       },
         error => {
           console.log(error);
         });
   }
 
-  getCropData(cropIds) {
-    if (cropIds) {
-      for (const cropId of cropIds) {
-        this.cropService.getCropById(cropId).pipe(first())
-          .subscribe((cropData: Crop) => {
-            this.crops.push(cropData);
-            this.dataSource = new MatTableDataSource(this.crops);
+  getHealthcareData(healthcareIds) {
+    if (healthcareIds) {
+      for (const healthcareId of healthcareIds) {
+        this.healthcareService.getHealthcareById(healthcareId).pipe(first())
+          .subscribe((healthcareData: Healthcare) => {
+            this.healthcare.push(healthcareData);
+            this.dataSource = new MatTableDataSource(this.healthcare);
             this.tableFeatures();
           },
             error => {

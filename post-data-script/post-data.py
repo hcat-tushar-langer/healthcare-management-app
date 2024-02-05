@@ -1,7 +1,7 @@
 import json
 import requests
 
-api_url = 'http://localhost:8000/api/v1/crop/profile'
+api_url = 'http://localhost:8000/api/v1/healthcare/profile'
 
 with open('./dummy-data.json') as f:
     data = json.load(f)

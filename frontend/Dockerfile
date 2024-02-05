@@ -1,10 +1,12 @@
-# base image
-FROM node:12.2.0
+# Use --platform to specify the architecture
+FROM --platform=linux/amd64 node:14-buster
 
 # install chrome for protractor tests
-RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
-RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-RUN apt-get update && apt-get install -yq google-chrome-stable
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' \
+    && apt-get update \
+    && apt-get install -yq google-chrome-stable --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/*
 
 # set working directory
 WORKDIR /app

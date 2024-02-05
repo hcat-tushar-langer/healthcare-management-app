@@ -6,16 +6,16 @@ import { environment } from '../../../environments/environment';
 @Injectable({
   providedIn: 'root'
 })
-export class CropService {
+export class HealthcareService {
 
   constructor(private http: HttpClient) {
   }
 
-  getAllCrops() {
-    return this.http.get(`${environment.apiUrl}/crop/profile`);
+  getAllHealthcare() {
+    return this.http.get(`${environment.apiUrl}/healthcare/profile`);
   }
 
-  getCropById(id) {
-    return this.http.get(`${environment.apiUrl}/crop/profile/${id}`);
+  getHealthcareById(id) {
+    return this.http.get(`${environment.apiUrl}/healthcare/profile/${id}`);
   }
 }

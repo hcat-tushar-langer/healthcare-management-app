@@ -23,14 +23,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { AlertsAndErrorsModule } from '../alerts-and-errors/alerts-and-errors.module';
 import { MatSelectModule } from '@angular/material/select';
-import { CropViewComponent } from './components/crop-view/crop-view.component';
+import { HealthcareViewComponent } from './components/healthcare-view/healthcare-view.component';
 
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    CropViewComponent,
+    HealthcareViewComponent,
   ],
   imports: [
     BrowserAnimationsModule,

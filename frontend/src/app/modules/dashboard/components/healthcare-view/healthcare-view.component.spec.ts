@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { HealthcareViewComponent } from './healthcare-view.component';
 
-import { CropViewComponent } from './crop-view.component';
 
-describe('CropViewComponent', () => {
-  let component: CropViewComponent;
-  let fixture: ComponentFixture<CropViewComponent>;
+describe('HealthcareViewComponent', () => {
+  let component: HealthcareViewComponent;
+  let fixture: ComponentFixture<HealthcareViewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CropViewComponent ]
+      declarations: [ HealthcareViewComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CropViewComponent);
+    fixture = TestBed.createComponent(HealthcareViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   frontend:
+    platform: linux/amd64
     build:
       context: ./frontend
       dockerfile: Dockerfile
@@ -15,6 +16,7 @@ services:
     depends_on: 
       - backend
   backend:
+    platform: linux/arm64
     build: ./backend
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
@@ -26,6 +28,7 @@ services:
     depends_on:
       - database
   database:
+    platform: linux/arm64
     image: postgres:12.0-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data/
