@@ -16,7 +16,7 @@ As a leading healthcare technology company, we are constantly on the lookout for
    - Implement a function that counts the occurrences of a pattern within a larger text.
    - Aim for a time complexity of O(n) to ensure suitability for processing large datasets.
    - Include a suite of unit tests for multiple patterns and text inputs.
-   - Implemente as a single end to end features involving UI and backend interaction
+   - Implemented as a features involving UI.
 
 3. **Upgrading codebase and developing feature for updating profile details**:
    - Suggest profile update and password change features for enhanced security.
