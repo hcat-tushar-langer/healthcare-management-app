@@ -22,6 +22,8 @@ As a leading healthcare technology company, we are constantly on the lookout for
    - Suggest profile update and password change features for enhanced security.
    - Develop an upgrade plan for migrating services to their latest versions.
 
+4. **Ensure that the app works in both development and production environments**
+
 
 *Bar Raiser Challenges:*
 
@@ -147,10 +149,11 @@ This web application is completely responsive.
 ## **Running project on local machine:**
 
 1. ### **Running in Development environment**
-  1. For running the project: docker-compose up -d –-build
-  2. For checking logs &amp; troubleshooting: docker-compose logs -f
-  3. For closing project: docker-compose down -v
-  4. For running commands in the local containers:
+  1. chmod +x ./backend/entrypoint.sh
+  2. For running the project: docker-compose up -d –-build
+  3. For checking logs &amp; troubleshooting: docker-compose logs -f
+  4. For closing project: docker-compose down -v
+  5. For running commands in the local containers:
     1. docker-compose exec [container name] [command]
     2. docker-compose exec backend python manage.py createsuperuser
     3. docker-compose exec backend python manage.py makemigrations
