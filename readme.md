@@ -46,6 +46,47 @@ Please submit your completed assignment within 7 days. Your innovative solutions
 
 We are excited to see your work and look forward to the possibility of you joining our dynamic team.
 
+**Git Strategy for Assignment**
+
+1. **Initial Setup**:
+   - Fork the provided GitHub repository (if applicable) or initialize a new repository on your preferred service (GitHub, GitLab, Bitbucket).
+   - Clone the repository to your local machine to begin working on the assignment.
+
+2. **Branching**:
+   - Create a new branch from the main/master branch for each major feature or part of the assignment (e.g., `feature-unique-activity-pattern`, `feature-pattern-search-mechanism`).
+   - Use descriptive branch names that clearly state the feature or task you are working on.
+
+3. **Committing**:
+   - Make small, frequent commits with clear and detailed commit messages that explain what changes have been made and why.
+   - This not only helps in keeping track of changes but also allows for easier code reviews.
+
+4. **Testing**:
+   - Commit tests and code separately where possible. Ensure all tests pass for each feature before merging your feature branch into the main branch.
+   - Use a continuous integration tool to run your tests automatically upon each commit if possible.
+
+5. **Merging and Pull Requests**:
+   - Once a feature is complete and all tests pass, merge the feature branch back into your main branch.
+   - Use pull requests for merging, even if you are the only one working in the repository. This is good practice and allows for code review and commentary.
+   - Ensure that your main/master branch always has a working version of the project.
+
+6. **Code Reviews**:
+   - If possible, have a peer review your pull requests before merging to get feedback on your code.
+
+7. **Documentation**:
+   - Update the README.md file on your main/master branch with the necessary documentation on how to set up, run, and test your application.
+
+8. **Submission**:
+   - Once everything is complete, push all your changes to your remote repository.
+   - Provide a link to the repository or a pull request for review by the hiring team.
+
+9. **Tagging and Releases**:
+   - Create a release tag in your repository with the final submission. This snapshot creates a point in the repository's history that can be easily referred to and downloaded.
+   - Name the tag appropriately, for example, `submission-v1.0`.
+
+10. **After Submission**:
+    - Do not push any more changes to the submission tag after the assignment's due date, unless requested by the review team.
+
+By following this strategy, candidates will demonstrate good practices in version control and organization, which are key skills for any Software Development Engineer. It is also recommended to include a `.gitignore` file to avoid committing unnecessary files to the repository.
 
 # Healthcare Management Application
 
