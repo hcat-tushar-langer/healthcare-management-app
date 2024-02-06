@@ -42,7 +42,7 @@ Your submission should include:
 - A detailed proposal for the innovation challenge, potentially with diagrams and code snippets.
 - A README file that articulates your design decisions and thought process.
 
-Please submit your completed assignment within 14 days. Your innovative solutions and problem-solving approach will be crucial in our evaluation.
+Please submit your completed assignment within 7 days. Your innovative solutions and problem-solving approach will be crucial in our evaluation.
 
 We are excited to see your work and look forward to the possibility of you joining our dynamic team.
 
