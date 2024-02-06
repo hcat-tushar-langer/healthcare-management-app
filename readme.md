@@ -29,6 +29,7 @@ As a leading healthcare technology company, we are constantly on the lookout for
 
 - Introduce a new feature, microservice, or frontend improvement of any framework of your choice.
 - Design an end-to-end testing suite to bolster application reliability.
+- Performance Upgrades and Optimizations
 
 *Expectations:*
 
