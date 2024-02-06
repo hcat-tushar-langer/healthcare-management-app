@@ -19,7 +19,7 @@ As a leading healthcare technology company, we are constantly on the lookout for
    - Implemented as a features involving UI.
 
 3. **Upgrading codebase and developing feature for updating profile details**:
-   - Suggest profile update and password change features for enhanced security.
+   - Implement profile update and password change features for enhanced security.
    - Develop an upgrade plan for migrating services to their latest versions.
 
 4. **Ensure that the app works in both development and production environments**
