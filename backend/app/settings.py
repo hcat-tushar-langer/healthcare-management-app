@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'crop',
+    'healthcare',
 ]
 
 REST_FRAMEWORK = {
@@ -65,7 +65,7 @@ REST_FRAMEWORK = {
 JWT_AUTH = {
     'JWT_ALLOW_REFRESH': True,
     'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=3600),
-    'JWT_RESPONSE_PAYLOAD_HANDLER': 'crop.views.jwt_response_payload_handler',
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'healthcare.views.jwt_response_payload_handler',
 }
 
 MIDDLEWARE = [
@@ -158,4 +158,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 MEDIA_URL = "/mediafiles/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "mediafiles")
 
-AUTH_USER_MODEL = 'crop.User'
+AUTH_USER_MODEL = 'healthcare.User'

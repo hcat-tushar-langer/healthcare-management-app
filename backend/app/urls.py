@@ -25,7 +25,7 @@ urlpatterns = [
         path('v1/', include([
             path('admin/', admin.site.urls),
             path('auth-token/', obtain_jwt_token),
-            path('crop/', include('crop.urls', 'crop',)),
+            path('healthcare/', include('healthcare.urls', 'healthcare',)),
         ]))
     ]))
 ]
