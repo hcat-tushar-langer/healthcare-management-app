@@ -50,7 +50,9 @@ We are excited to see your work and look forward to the possibility of you joini
 
 1. **Initial Setup**:
    - Fork the provided GitHub repository (if applicable) or initialize a new repository on your preferred service (GitHub, GitLab, Bitbucket).
-   - Clone the repository to your local machine to begin working on the assignment.
+   - Keep the repository private and add me as a collborator using my email id: [tushar.langer@healthcatalyst.com](mailto:tushar.langer@healthcatalyst.com).
+   - Clone the repository to your local machine to begin working on the assignment. 
+
 
 2. **Branching**:
    - Create a new branch from the main/master branch for each major feature or part of the assignment (e.g., `feature-unique-activity-pattern`, `feature-pattern-search-mechanism`).
