@@ -4,7 +4,7 @@
 
 As a leading healthcare technology company, we are constantly on the lookout for exceptional talent to join our team. This take-home assignment is designed to assess your technical skills, problem-solving abilities, and innovative thinking. It consists of two main parts: the Core Functionality Tasks and the Bar Raiser Challenges. Please find the assignment at: [github](https://github.com/hcat-tushar-langer/healthcare-management-app/) and please reach out to [tushar.langer@healthcatalyst.com](mailto:tushar.langer@healthcatalyst.com) or [+91 7022209250](tel:+917022209250) for any doubts.
 
-*Core Functionality Tasks - Build the application features of your choice using any framework / language or technology in the given application ecosystem from the following:*
+*<u>Core Functionality Tasks<u>* - *Build the application features of your choice using any framework / language or technology in the given application ecosystem from the following:*
 
 1. **Unique Activity Pattern Analyzer** - `findUniqueActivityPatternLength`:
    - Develop a function to analyze a string of user access actions and determine the length of the longest sequence where all actions are unique.
@@ -28,7 +28,7 @@ As a leading healthcare technology company, we are constantly on the lookout for
    - `findUniqueActivityPatternLength` - This functionality could utilize an algorithm to monitor the mouse movements of our users. Specifically, we can record four types of mouse actions: a left click represented by the string 'A', a right click by 'B', scrolling up by 'C', and scrolling down by 'D'. By tracking and storing these events, we can then display the longest distinct pattern of activity for each user within the user interface. Use similar strategy for building features from algorithms in *Core Functionality Tasks* and *Bar Raiser Challanges*
 
 
-*Bar Raiser Challenges:*
+*<u>Bar Raiser Challenges</u>:*
 
 - Introduce a new feature, microservice, or frontend improvement of any framework of your choice.
 - Design an end-to-end testing suite to bolster application reliability.
