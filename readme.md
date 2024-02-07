@@ -4,7 +4,7 @@
 
 As a leading healthcare technology company, we are constantly on the lookout for exceptional talent to join our team. This take-home assignment is designed to assess your technical skills, problem-solving abilities, and innovative thinking. It consists of two main parts: the Core Functionality Tasks and the Bar Raiser Challenges. Please find the assignment at: [github](https://github.com/hcat-tushar-langer/healthcare-management-app/) and please reach out to [tushar.langer@healthcatalyst.com](mailto:tushar.langer@healthcatalyst.com) or [+91 7022209250](tel:+917022209250) for any doubts.
 
-*Core Functionality Tasks - Build the application features of your choice / framework / language out of the following:*
+*Core Functionality Tasks - Build the application features of your choice using any framework / language or technology winthin the given application ecosystem out of the following:*
 
 1. **Unique Activity Pattern Analyzer** - `findUniqueActivityPatternLength`:
    - Develop a function to analyze a string of user access actions and determine the length of the longest sequence where all actions are unique.
