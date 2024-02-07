@@ -25,7 +25,7 @@ As a leading healthcare technology company, we are constantly on the lookout for
 4. **Ensure that the app works in both development and production environments**
 
 5. **Hints & Examples**
-   - `findUniqueActivityPatternLength` - This functionality could utilize an algorithm to monitor the mouse movements of our users. Specifically, we can record four types of mouse actions: a left click represented by the string 'A', a right click by 'B', scrolling up by 'C', and scrolling down by 'D'. By tracking and storing these events, we can then display the longest distinct pattern of activity for each user within the user interface.
+   - `findUniqueActivityPatternLength` - This functionality could utilize an algorithm to monitor the mouse movements of our users. Specifically, we can record four types of mouse actions: a left click represented by the string 'A', a right click by 'B', scrolling up by 'C', and scrolling down by 'D'. By tracking and storing these events, we can then display the longest distinct pattern of activity for each user within the user interface. Use similar strategy for other algorithms *Core Functionality Tasks* and *Bar Raiser Challanges*
 
 
 *Bar Raiser Challenges:*
