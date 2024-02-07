@@ -10,7 +10,7 @@ As a leading healthcare technology company, we are constantly on the lookout for
    - Develop a function to analyze a string of user access actions and determine the length of the longest sequence where all actions are unique.
    - The function should operate with a time complexity of O(n).
    - Write unit tests to validate the functionality against various scenarios.
-   - Implemente as a single end to end features involving UI and backend interaction
+   - Implement as a single end to end features involving UI and backend interaction
 
 2. **Efficient Pattern Search Mechanism** - `findPatternOccurrences`:
    - Implement a function that counts the occurrences of a pattern within a larger text.
