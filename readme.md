@@ -2,7 +2,7 @@
 
 *Introduction:*
 
-As a leading healthcare technology company, we are constantly on the lookout for exceptional talent to join our team. This take-home assignment is designed to assess your technical skills, problem-solving abilities, and innovative thinking. It consists of two main parts: the Core Functionality Tasks and the Bar Raiser Challenges. Please find the assignment at: [github](https://github.com/hcat-tushar-langer/healthcare-management-app/) and please reach out to [tushar.langer@healthcatalyst.com](mailto:tushar.langer@healthcatalyst.com) or [+91 7022209250](tel:+917022209250) for any doubts.
+As a leading healthcare technology company, we are constantly on the lookout for exceptional talent to join our team. This take-home assignment is designed to assess your technical skills, problem-solving abilities, and innovative thinking. It consists of two main parts: the Core Functionality Tasks and the Bar Raiser Challenges. Please find the assignment at: [github](https://github.com/hcat-tushar-langer/healthcare-management-app/) and please reach out to [tushar.langer@healthcatalyst.com](mailto:tushar.langer@healthcatalyst.com) for any doubts.
 
 *<u>Core Functionality Tasks<u>* - *Build the application features of your choice using any framework / language or technology in the given application ecosystem from the following:*
 
