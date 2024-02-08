@@ -6,33 +6,41 @@ As a leading healthcare technology company, we are constantly on the lookout for
 
 *<u>Core Functionality Tasks<u>* - *Build the application features of your choice using any framework / language or technology in the given application ecosystem from the following:*
 
-1. **Unique Activity Pattern Analyzer** - `findUniqueActivityPatternLength`:
+1. **Implement profile update and password change features for enhanced security.**
+
+2. **Unique Activity Pattern Analyzer** - `findUniqueActivityPatternLength`:
+   - Build the application features of your choice using any framework / language or technology using this algorithm
    - Develop a function to analyze a string of user access actions and determine the length of the longest sequence where all actions are unique.
    - The function should operate with a time complexity of O(n).
    - Write unit tests to validate the functionality against various scenarios.
    - Implement as a single end to end features involving UI and backend interaction
 
-2. **Efficient Pattern Search Mechanism** - `findPatternOccurrences`:
+3. **Efficient Pattern Search Mechanism** - `findPatternOccurrences`:
+   - Build the application features of your choice using any framework / language or technology using this algorithm
    - Implement a function that counts the occurrences of a pattern within a larger text.
    - Aim for a time complexity of O(n) to ensure suitability for processing large datasets.
    - Include a suite of unit tests for multiple patterns and text inputs.
    - Implemented as a features involving UI.
 
-3. **Upgrading codebase and developing feature for updating profile details**:
-   - Implement profile update and password change features for enhanced security.
-   - Develop an upgrade plan for migrating services to their latest versions.
-
 4. **Ensure that the app works in both development and production environments**
 
-5. **Hints & Examples**
-   - `findUniqueActivityPatternLength` - This functionality could utilize an algorithm to monitor the mouse movements of our users. Specifically, we can record four types of mouse actions: a left click represented by the string 'A', a right click by 'B', scrolling up by 'C', and scrolling down by 'D'. By tracking and storing these events, we can then display the longest distinct pattern of activity for each user within the user interface. Use similar strategy for building features from algorithms in *Core Functionality Tasks* and *Bar Raiser Challanges*
-
+5. **Help Section**
+   - Thoroughly go through the readme file to understand the project.
+   - Set up the codebase on your local machine. You need Docker and Python for that.
+   - Read the documentation to set up the local environment and understand the technicalities of the project.
+   - Implement any service (including UI) of your choice in the same application ecosystem and codebase. For example, React, NodeJS, Springboot, mongodb etc.
+   - If you need help or have any doubts, reach out to me at my email and set up a 15 min call to keep moving forward. I am here to help.
+   - Implement features to complete edit profile details and profile password in the application.
+   - Hint: `findUniqueActivityPatternLength` - This functionality could utilize an algorithm to monitor the mouse movements of our users. Specifically, we can record four types of mouse actions: a left click represented by the string 'A', a right click by 'B', scrolling up by 'C', and scrolling down by 'D'. By tracking and storing these events, we can then display the longest distinct pattern of activity for each user within the user interface. You can extend this funcanality to make it more robust or use any other ideas for user activity tracking.
+   - Use your understanding to build a feature using `findUniqueActivityPatternLength` algorithm.
+   - Use similar strategy for building features from algorithms in *Bar Raiser Challanges*
 
 *<u>Bar Raiser Challenges</u>:*
 
 - Introduce a new feature, microservice, or frontend improvement of any framework of your choice.
+- Develop an upgrade plan for migrating services to their latest versions.
 - Design an end-to-end testing suite to bolster application reliability.
-- Performance Upgrades and Optimizations
+- Performance Optimization: Focus on enhancing system efficiency by streamlining code, optimizing databases, and implementing caching. Aim to boost speed and scalability while reducing load times.
 
 *Expectations:*
 
