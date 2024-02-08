@@ -4,23 +4,21 @@
 
 As a leading healthcare technology company, we are constantly on the lookout for exceptional talent to join our team. This take-home assignment is designed to assess your technical skills, problem-solving abilities, and innovative thinking. It consists of two main parts: the Core Functionality Tasks and the Bar Raiser Challenges. Please find the assignment at: [github](https://github.com/hcat-tushar-langer/healthcare-management-app/) and please reach out to [tushar.langer@healthcatalyst.com](mailto:tushar.langer@healthcatalyst.com) for any doubts.
 
-*<u>Core Functionality Tasks<u>* - *Build the application features of your choice using any framework / language or technology in the given application ecosystem from the following:*
+*<u>Core Functionality Tasks<u>* - *Implement an end to end application features leveraging any framework / language or technology for the following tasks:*
 
 1. **Implement profile update and password change features for enhanced security.**
 
 2. **Unique Activity Pattern Analyzer** - `findUniqueActivityPatternLength`:
-   - Build the application features of your choice using any framework / language or technology using this algorithm
+   - Implement an end to end application features of your leveraging any framework / language or technology using this algorithm.
    - Develop a function to analyze a string of user access actions and determine the length of the longest sequence where all actions are unique.
    - The function should operate with a time complexity of O(n).
    - Write unit tests to validate the functionality against various scenarios.
-   - Implement as a single end to end features involving UI and backend interaction
 
 3. **Efficient Pattern Search Mechanism** - `findPatternOccurrences`:
    - Build the application features of your choice using any framework / language or technology using this algorithm
    - Implement a function that counts the occurrences of a pattern within a larger text.
    - Aim for a time complexity of O(n) to ensure suitability for processing large datasets.
    - Include a suite of unit tests for multiple patterns and text inputs.
-   - Implemented as a features involving UI.
 
 4. **Ensure that the app works in both development and production environments**
 
@@ -219,3 +217,4 @@ This web application is completely responsive.
 ### **MySQL**
 
 For MySQL immplentation, all the steps stays the same as above. Only one thing to keep in mind is the route for it which will be localhost:8183 and Login details | username: [root](mailto:admin@healthcare.com) | password: password
+![image](https://github.com/hcat-tushar-langer/healthcare-management-app/assets/31302114/af992981-5077-47f1-81aa-a5b4a77c3536)
